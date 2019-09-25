@@ -1,0 +1,11 @@
+//this is the preprocessor directive, telling us that we need to utilize things from the iostream library
+#include <iostream>
+
+//int main() is absolutely necessary for ANY C++ program
+int main()
+{
+//std:cout shows that the words following the << "..." should be outputed, stands for character output (ALWAYS END LINE WITH ";")
+    std::cout <<"Hello world!";
+    //return tells the program to return 0 after executing in order to make sure the program will be running free of errors
+    return 0;
+}
