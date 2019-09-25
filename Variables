@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main()
+{
+    /*typical way of defining a variable, two lines required, 1st line does the
+    *defining of the varible, while the second line gives the value*/
+    int birdie;
+    birdie = 5;
+    //also you could use the following two types to initialize the variable quicker
+    int doggie(5);
+    int fishie = 5;
+    return 0;
+}
